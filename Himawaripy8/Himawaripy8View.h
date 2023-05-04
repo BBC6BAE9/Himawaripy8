@@ -2,7 +2,7 @@
 //  Himawaripy8View.h
 //  Himawaripy8
 //
-//  Created by henry on 2023/5/4.
+//  Created by henry on 2021/5/22.
 //
 
 #import <ScreenSaver/ScreenSaver.h>

@@ -3,22 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA2C89712A03E6E7009CDF00 /* Himawaripy8View.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2C89702A03E6E7009CDF00 /* Himawaripy8View.h */; };
-		BA2C89732A03E6E7009CDF00 /* Himawaripy8View.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2C89722A03E6E7009CDF00 /* Himawaripy8View.m */; };
+		BA2C89622A03E146009CDF00 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2C89612A03E146009CDF00 /* Media.xcassets */; };
+		BA2C89872A0409D7009CDF00 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2C89832A0409D7009CDF00 /* Montserrat-Thin.ttf */; };
+		BA2C89882A0409D7009CDF00 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2C89842A0409D7009CDF00 /* Montserrat-SemiBold.ttf */; };
+		BA2C89892A0409D7009CDF00 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2C89852A0409D7009CDF00 /* Montserrat-ExtraBold.ttf */; };
+		BA2C898A2A0409D7009CDF00 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2C89862A0409D7009CDF00 /* Montserrat-Regular.ttf */; };
+		BA3491D326594CD6005C869F /* Himawaripy8View.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3491D226594CD6005C869F /* Himawaripy8View.h */; };
+		BA3491D526594CD6005C869F /* Himawaripy8View.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3491D426594CD6005C869F /* Himawaripy8View.m */; };
+		BA3491E926594CE7005C869F /* NSArray+Sorting.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3491E326594CE7005C869F /* NSArray+Sorting.m */; };
+		BA3491EA26594CE7005C869F /* NSImage+Combined.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3491E426594CE7005C869F /* NSImage+Combined.m */; };
+		BA3491EB26594CE7005C869F /* NSImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3491E526594CE7005C869F /* NSImage+Color.m */; };
+		BA3491EC26594CE7005C869F /* NSArray+Sorting.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3491E626594CE7005C869F /* NSArray+Sorting.h */; };
+		BA3491ED26594CE7005C869F /* NSImage+Combined.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3491E726594CE7005C869F /* NSImage+Combined.h */; };
+		BA3491EE26594CE7005C869F /* NSImage+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3491E826594CE7005C869F /* NSImage+Color.h */; };
+		BA3491F226594CEE005C869F /* Font.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3491F026594CEE005C869F /* Font.m */; };
+		BA3491F326594CEE005C869F /* Font.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3491F126594CEE005C869F /* Font.h */; };
+		BA3491F926594D09005C869F /* GISatelliteDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3491F726594D09005C869F /* GISatelliteDownloader.m */; };
+		BA3491FA26594D09005C869F /* GISatelliteDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3491F826594D09005C869F /* GISatelliteDownloader.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BA2C896D2A03E6E7009CDF00 /* Himawaripy8.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Himawaripy8.saver; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA2C89702A03E6E7009CDF00 /* Himawaripy8View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Himawaripy8View.h; sourceTree = "<group>"; };
-		BA2C89722A03E6E7009CDF00 /* Himawaripy8View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Himawaripy8View.m; sourceTree = "<group>"; };
+		BA2C89612A03E146009CDF00 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		BA2C89832A0409D7009CDF00 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		BA2C89842A0409D7009CDF00 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		BA2C89852A0409D7009CDF00 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		BA2C89862A0409D7009CDF00 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		BA3491CF26594CD6005C869F /* Himawaripy8.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Himawaripy8.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3491D226594CD6005C869F /* Himawaripy8View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Himawaripy8View.h; sourceTree = "<group>"; };
+		BA3491D426594CD6005C869F /* Himawaripy8View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Himawaripy8View.m; sourceTree = "<group>"; };
+		BA3491D626594CD6005C869F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3491E326594CE7005C869F /* NSArray+Sorting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Sorting.m"; sourceTree = "<group>"; };
+		BA3491E426594CE7005C869F /* NSImage+Combined.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Combined.m"; sourceTree = "<group>"; };
+		BA3491E526594CE7005C869F /* NSImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Color.m"; sourceTree = "<group>"; };
+		BA3491E626594CE7005C869F /* NSArray+Sorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Sorting.h"; sourceTree = "<group>"; };
+		BA3491E726594CE7005C869F /* NSImage+Combined.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Combined.h"; sourceTree = "<group>"; };
+		BA3491E826594CE7005C869F /* NSImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Color.h"; sourceTree = "<group>"; };
+		BA3491F026594CEE005C869F /* Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Font.m; sourceTree = "<group>"; };
+		BA3491F126594CEE005C869F /* Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Font.h; sourceTree = "<group>"; };
+		BA3491F726594D09005C869F /* GISatelliteDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GISatelliteDownloader.m; sourceTree = "<group>"; };
+		BA3491F826594D09005C869F /* GISatelliteDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GISatelliteDownloader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BA2C896A2A03E6E7009CDF00 /* Frameworks */ = {
+		BA3491CC26594CD6005C869F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -28,53 +59,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BA2C89632A03E6E7009CDF00 = {
+		BA2C89822A0409D7009CDF00 /* Montserrat */ = {
 			isa = PBXGroup;
 			children = (
-				BA2C896F2A03E6E7009CDF00 /* Himawaripy8 */,
-				BA2C896E2A03E6E7009CDF00 /* Products */,
+				BA2C89832A0409D7009CDF00 /* Montserrat-Thin.ttf */,
+				BA2C89842A0409D7009CDF00 /* Montserrat-SemiBold.ttf */,
+				BA2C89852A0409D7009CDF00 /* Montserrat-ExtraBold.ttf */,
+				BA2C89862A0409D7009CDF00 /* Montserrat-Regular.ttf */,
+			);
+			path = Montserrat;
+			sourceTree = "<group>";
+		};
+		BA3491C526594CD6005C869F = {
+			isa = PBXGroup;
+			children = (
+				BA3491D126594CD6005C869F /* Himawaripy8 */,
+				BA3491D026594CD6005C869F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BA2C896E2A03E6E7009CDF00 /* Products */ = {
+		BA3491D026594CD6005C869F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA2C896D2A03E6E7009CDF00 /* Himawaripy8.saver */,
+				BA3491CF26594CD6005C869F /* Himawaripy8.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA2C896F2A03E6E7009CDF00 /* Himawaripy8 */ = {
+		BA3491D126594CD6005C869F /* Himawaripy8 */ = {
 			isa = PBXGroup;
 			children = (
-				BA2C89702A03E6E7009CDF00 /* Himawaripy8View.h */,
-				BA2C89722A03E6E7009CDF00 /* Himawaripy8View.m */,
+				BA2C89822A0409D7009CDF00 /* Montserrat */,
+				BA3491F126594CEE005C869F /* Font.h */,
+				BA3491F026594CEE005C869F /* Font.m */,
+				BA2C89612A03E146009CDF00 /* Media.xcassets */,
+				BA3491E226594CE7005C869F /* Category */,
+				BA3491D226594CD6005C869F /* Himawaripy8View.h */,
+				BA3491D426594CD6005C869F /* Himawaripy8View.m */,
+				BA3491F826594D09005C869F /* GISatelliteDownloader.h */,
+				BA3491F726594D09005C869F /* GISatelliteDownloader.m */,
+				BA3491D626594CD6005C869F /* Info.plist */,
 			);
 			path = Himawaripy8;
+			sourceTree = "<group>";
+		};
+		BA3491E226594CE7005C869F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BA3491E326594CE7005C869F /* NSArray+Sorting.m */,
+				BA3491E726594CE7005C869F /* NSImage+Combined.h */,
+				BA3491E426594CE7005C869F /* NSImage+Combined.m */,
+				BA3491E526594CE7005C869F /* NSImage+Color.m */,
+				BA3491E626594CE7005C869F /* NSArray+Sorting.h */,
+				BA3491E826594CE7005C869F /* NSImage+Color.h */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BA2C89682A03E6E7009CDF00 /* Headers */ = {
+		BA3491CA26594CD6005C869F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA2C89712A03E6E7009CDF00 /* Himawaripy8View.h in Headers */,
+				BA3491ED26594CE7005C869F /* NSImage+Combined.h in Headers */,
+				BA3491EE26594CE7005C869F /* NSImage+Color.h in Headers */,
+				BA3491D326594CD6005C869F /* Himawaripy8View.h in Headers */,
+				BA3491F326594CEE005C869F /* Font.h in Headers */,
+				BA3491FA26594D09005C869F /* GISatelliteDownloader.h in Headers */,
+				BA3491EC26594CE7005C869F /* NSArray+Sorting.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BA2C896C2A03E6E7009CDF00 /* Himawaripy8 */ = {
+		BA3491CE26594CD6005C869F /* Himawaripy8 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA2C89762A03E6E7009CDF00 /* Build configuration list for PBXNativeTarget "Himawaripy8" */;
+			buildConfigurationList = BA3491D926594CD6005C869F /* Build configuration list for PBXNativeTarget "Himawaripy8" */;
 			buildPhases = (
-				BA2C89682A03E6E7009CDF00 /* Headers */,
-				BA2C89692A03E6E7009CDF00 /* Sources */,
-				BA2C896A2A03E6E7009CDF00 /* Frameworks */,
-				BA2C896B2A03E6E7009CDF00 /* Resources */,
+				BA3491CA26594CD6005C869F /* Headers */,
+				BA3491CB26594CD6005C869F /* Sources */,
+				BA3491CC26594CD6005C869F /* Frameworks */,
+				BA3491CD26594CD6005C869F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -82,70 +150,80 @@
 			);
 			name = Himawaripy8;
 			productName = Himawaripy8;
-			productReference = BA2C896D2A03E6E7009CDF00 /* Himawaripy8.saver */;
+			productReference = BA3491CF26594CD6005C869F /* Himawaripy8.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BA2C89642A03E6E7009CDF00 /* Project object */ = {
+		BA3491C626594CD6005C869F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					BA2C896C2A03E6E7009CDF00 = {
-						CreatedOnToolsVersion = 14.3;
+					BA3491CE26594CD6005C869F = {
+						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = BA2C89672A03E6E7009CDF00 /* Build configuration list for PBXProject "Himawaripy8" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = BA3491C926594CD6005C869F /* Build configuration list for PBXProject "Himawaripy8" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = BA2C89632A03E6E7009CDF00;
-			productRefGroup = BA2C896E2A03E6E7009CDF00 /* Products */;
+			mainGroup = BA3491C526594CD6005C869F;
+			productRefGroup = BA3491D026594CD6005C869F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA2C896C2A03E6E7009CDF00 /* Himawaripy8 */,
+				BA3491CE26594CD6005C869F /* Himawaripy8 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BA2C896B2A03E6E7009CDF00 /* Resources */ = {
+		BA3491CD26594CD6005C869F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA2C89882A0409D7009CDF00 /* Montserrat-SemiBold.ttf in Resources */,
+				BA2C89892A0409D7009CDF00 /* Montserrat-ExtraBold.ttf in Resources */,
+				BA2C89872A0409D7009CDF00 /* Montserrat-Thin.ttf in Resources */,
+				BA2C898A2A0409D7009CDF00 /* Montserrat-Regular.ttf in Resources */,
+				BA2C89622A03E146009CDF00 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BA2C89692A03E6E7009CDF00 /* Sources */ = {
+		BA3491CB26594CD6005C869F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA2C89732A03E6E7009CDF00 /* Himawaripy8View.m in Sources */,
+				BA3491F926594D09005C869F /* GISatelliteDownloader.m in Sources */,
+				BA3491EB26594CE7005C869F /* NSImage+Color.m in Sources */,
+				BA3491EA26594CE7005C869F /* NSImage+Combined.m in Sources */,
+				BA3491D526594CD6005C869F /* Himawaripy8View.m in Sources */,
+				BA3491F226594CEE005C869F /* Font.m in Sources */,
+				BA3491E926594CE7005C869F /* NSArray+Sorting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BA2C89742A03E6E7009CDF00 /* Debug */ = {
+		BA3491D726594CD6005C869F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -189,7 +267,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -197,13 +275,14 @@
 			};
 			name = Debug;
 		};
-		BA2C89752A03E6E7009CDF00 /* Release */ = {
+		BA3491D826594CD6005C869F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -241,47 +320,41 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		BA2C89772A03E6E7009CDF00 /* Debug */ = {
+		BA3491DA26594CD6005C869F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2JSKY93FHH;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = Himawaripy8View;
+				INFOPLIST_FILE = Himawaripy8/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.tv.Himawaripy8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hahahimaway;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
 		};
-		BA2C89782A03E6E7009CDF00 /* Release */ = {
+		BA3491DB26594CD6005C869F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2JSKY93FHH;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = Himawaripy8View;
+				INFOPLIST_FILE = Himawaripy8/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.tv.Himawaripy8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hahahimaway;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
@@ -289,25 +362,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BA2C89672A03E6E7009CDF00 /* Build configuration list for PBXProject "Himawaripy8" */ = {
+		BA3491C926594CD6005C869F /* Build configuration list for PBXProject "Himawaripy8" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA2C89742A03E6E7009CDF00 /* Debug */,
-				BA2C89752A03E6E7009CDF00 /* Release */,
+				BA3491D726594CD6005C869F /* Debug */,
+				BA3491D826594CD6005C869F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA2C89762A03E6E7009CDF00 /* Build configuration list for PBXNativeTarget "Himawaripy8" */ = {
+		BA3491D926594CD6005C869F /* Build configuration list for PBXNativeTarget "Himawaripy8" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA2C89772A03E6E7009CDF00 /* Debug */,
-				BA2C89782A03E6E7009CDF00 /* Release */,
+				BA3491DA26594CD6005C869F /* Debug */,
+				BA3491DB26594CD6005C869F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BA2C89642A03E6E7009CDF00 /* Project object */;
+	rootObject = BA3491C626594CD6005C869F /* Project object */;
 }
