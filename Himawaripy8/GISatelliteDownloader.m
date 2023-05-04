@@ -3,7 +3,7 @@
 //  SatelliteEarthImage
 //
 //  Created by huang on 25.04.16.
-//  Copyright © 2016 huang. All rights reserved.
+//  Copyright © 2023 huang. All rights reserved.
 //
 
 #import "GISatelliteDownloader.h"
