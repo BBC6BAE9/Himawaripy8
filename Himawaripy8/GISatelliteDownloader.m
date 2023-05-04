@@ -2,8 +2,8 @@
 //  GISatelliteDownloader.m
 //  SatelliteEarthImage
 //
-//  Created by Gnatyuk Ivan on 25.04.16.
-//  Copyright © 2016 Gnatyuk Ivan. All rights reserved.
+//  Created by huang on 25.04.16.
+//  Copyright © 2016 huang. All rights reserved.
 //
 
 #import "GISatelliteDownloader.h"

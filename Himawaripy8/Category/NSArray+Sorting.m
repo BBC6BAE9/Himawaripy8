@@ -2,7 +2,7 @@
 //  NSArray+Sorting.m
 //  RationalApe
 //
-//  Created by Gnatyuk Ivan on 08.04.16.
+//  Created by huang on 08.04.16.
 //  Copyright © 2016 daleijn. All rights reserved.
 //
 
